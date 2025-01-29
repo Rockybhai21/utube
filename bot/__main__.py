@@ -9,5 +9,5 @@ if __name__ == "__main__":
     logging.getLogger("pyrogram").setLevel(
         logging.INFO if Config.DEBUG else logging.WARNING
     )
-
+    app = Bot()
     UtubeBot().run()
