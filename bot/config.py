@@ -5,7 +5,7 @@ class Config:
 
     BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
-    SESSION_NAME = "youtube"
+    SESSION_NAME = "Yoube_uploaderr_bot"
 
     API_ID = int(os.environ.get("API_ID"))
 
